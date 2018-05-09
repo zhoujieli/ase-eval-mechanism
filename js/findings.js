@@ -266,6 +266,8 @@ function addLine(key) {
     y.setAttribute("id", yId);
     document.getElementById("myTable").appendChild(y);
     var z = document.createElement("TD");
+    z.setAttribute("height", "30px");
+    z.setAttribute("bgcolor", "#000000");
     document.getElementById(yId).appendChild(z);
 }
 
